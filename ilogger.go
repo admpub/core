@@ -25,7 +25,8 @@ type ILogger interface {
 
 	Level() LogLevel
 	SetLevel(l LogLevel)
-
-	ShowSQL(show ...bool)
-	IsShowSQL() bool
+	/*
+		ShowSQL(show ...bool)
+		IsShowSQL() bool
+	*/
 }
